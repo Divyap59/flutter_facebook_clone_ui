@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_clone_ui/config/pallete.dart';
 import 'package:flutter_facebook_clone_ui/data/data.dart';
-import 'package:flutter_facebook_clone_ui/models/models.dart';
 import 'package:flutter_facebook_clone_ui/widgets/circle_button.dart';
 import 'package:flutter_facebook_clone_ui/widgets/create_post_container.dart';
 import 'package:flutter_facebook_clone_ui/widgets/rooms.dart';
@@ -45,6 +44,13 @@ class HomeScreen extends StatelessWidget{
             padding: const EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 5.0),
             sliver: SliverToBoxAdapter(
               child: Rooms(onlineUsers: onlineUsers,),
+            ),
+          ),
+
+          SliverPadding(
+            padding: const EdgeInsets.fromLTRB(0.0, 5.0, 0.0, 5.0),
+            sliver: SliverToBoxAdapter(
+              child: Stories(currentUser: currentUser, stories: stories),
             ),
           )
 
