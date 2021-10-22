@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_facebook_clone_ui/config/pallete.dart/';
+import 'package:flutter_facebook_clone_ui/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
