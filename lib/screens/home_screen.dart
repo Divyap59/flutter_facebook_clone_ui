@@ -4,6 +4,7 @@ import 'package:flutter_facebook_clone_ui/data/data.dart';
 import 'package:flutter_facebook_clone_ui/widgets/circle_button.dart';
 import 'package:flutter_facebook_clone_ui/widgets/create_post_container.dart';
 import 'package:flutter_facebook_clone_ui/widgets/rooms.dart';
+import 'package:flutter_facebook_clone_ui/widgets/stories.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class HomeScreen extends StatelessWidget{
@@ -15,7 +16,7 @@ class HomeScreen extends StatelessWidget{
           SliverAppBar(
             brightness: Brightness.light,
             backgroundColor: Colors.white,
-            title: const Text("Facebook", style: TextStyle(
+            title: const Text("facebook", style: TextStyle(
               color: Palette.facebookBlue,
               fontSize: 20,
               fontWeight: FontWeight.bold,
