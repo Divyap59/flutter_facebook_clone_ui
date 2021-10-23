@@ -4,3 +4,4 @@ export 'rooms.dart';
 export 'cretae_room_button.dart';
 export 'profile_avatar.dart';
 export 'stories.dart';
+export 'post_container.dart';
